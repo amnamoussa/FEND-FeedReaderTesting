@@ -109,9 +109,9 @@ $(function() {
          */
         var feed;
         beforeEach(function(done) {
-                loadFeed(0, function(){
+            loadFeed(0, function(){
                 feed = $(".feed").html();
-                });
+            });
             done();
         });
         

@@ -23,7 +23,7 @@ This is the eighth and final project of [Udacity Front-End Web Development Nano 
 5. A test that ensures the menu changes visibility when the menu icon is clicked. This test should have two expectations: does the menu display when clicked and does it hide when clicked again.
 
 #### A test suite named `"Initial Entries"`
-6. Write a test that ensures when the `loadFeed` function is called and completes its work, there is at least a single `.entry` element within the `.feed` container.
+6. A test that ensures when the `loadFeed` function is called and completes its work, there is at least a single `.entry` element within the `.feed` container.
 
 #### A test suite named `"New Feed Selection"`
-7. Write a test that ensures when a new feed is loaded by the `loadFeed` function that the content actually changes.
+7. A test that ensures when a new feed is loaded by the `loadFeed` function that the content actually changes.

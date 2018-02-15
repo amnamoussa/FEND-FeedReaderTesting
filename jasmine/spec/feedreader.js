@@ -109,14 +109,9 @@ $(function() {
          */
         var feed;
         beforeEach(function(done) {
-            /* for loop to make sure that every time the content is
-            * different and its actually changes from the previous loaded
-            */
-            for (var i = 0; i < allFeeds.length; i++) {
-                loadFeed(i, function(){
+                loadFeed(0, function(){
                 feed = $(".feed").html();
                 });
-            }
             done();
         });
         
